@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(https://corporationchina.com/wp-content/uploads/2018/07/JD-PALLAS-Website-Partnerships-Background.jpg);
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+}
+header{
+    background: #333F47;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    display: inline;
+}
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    font-size: 16px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+nav ul li a:hover{
+	color: #2aebf1;
+	background: #2c6324;
+}
+nav ul li a img{
+    width: 75px;
+    max-width: 100%;
+	display: block;
+}
+.formsection{}
+.rightpart{
+float: right;
+width: 30%;
+margin-right: 172px;
+margin-top: 75px;
+}
+.formfill{
+	background: green;
+	padding: 20px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+form{}
+input{
+	width: 100%;
+padding: 5px;
+margin: 5px;
+}
+.formfill h3{
+display: block;
+text-align: center;
+color: white;
+margin-bottom: 5px;
+margin-top: 20px;
+}
+.formfill p{color: white;text-align: center;margin-bottom: 25px;font-size: 13px;}
+.regbtn{
+	background: #376b10;
+	color: white;
+	outline: 0;
+	border: 0;
+	cursor: pointer;
+	padding: 8px;
+	box-shadow: 0 0 3px #333;
+	margin-bottom: 20px;
+}
+.regbtn:hover{
+box-shadow: 3px 3px 5px #100903;
+}
+.leftpart{
+width: 30%;
+margin-top: 75px;
+margin-left: 172px;
+float: left;
+overflow: hidden;
+}
+.textshow{
+}
+.textshow h3{
+display: block;
+color: #fff;
+font-size: 21px;
+display: inline-block;
+}
+.textshow p{
+font-size: 9px;
+color: white;
+}
+.textshow ul{margin-top: 25px;}
+.textshow ul li{
+	color: white;
+}
+.textshow button{
+margin-top: 25px;
+padding: 5px 15px;
+margin-bottom: 10px;
+border-radius: 15px;
+border: 0;
+font-size: 20px;
+outline: 0;
+color: white;
+box-shadow: 1px 1px 3px #333;
+background: #41942df7;
+}
+.textshow button a{
+	text-decoration: none;
+	color: white;
+}
+.textshow button:hover{
+	box-shadow:0px 0px 3px #18f32a;
+	cursor:pointer;
+}
